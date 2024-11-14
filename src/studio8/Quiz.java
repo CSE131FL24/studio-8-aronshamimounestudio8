@@ -26,7 +26,9 @@ public class Quiz {
 	}
 	
 	public void takeQuiz() {
-		//FIXME
+		for (Question a : questions) {
+			a.displayPrompt();
+		}
 	}
 	
 	public static void main(String[] args) {
